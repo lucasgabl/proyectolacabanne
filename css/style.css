@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: linear-gradient(to right, #2b0202, #44ce16);
+  box-shadow: 0 0.5rem 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+body {
+  margin: 0;
+  margin-bottom: 40px;
+  overflow-x: hidden;
+}
+
+.icono {
+  height: 50px;
+}
+
+.collapse.navbar-collapse {
+  text-align: center;
+}
+
+img,
+svg {
+  height: 350px;
+  vertical-align: middle;
+}
+
+.container {
+  width: 80%;
+  margin: 0% auto;
+  max-width: 1320px;
+}
+.titulo {
+  font-size: 90px;
+  color: rgb(33, 124, 71);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.subtitulo {
+  font-size: 50px;
+  color: rgb(33, 124, 71);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: lighter;
+  text-decoration: underline;
+}
+
+.map-container {
+  overflow: hidden;
+  padding-bottom: 100px;
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.map-container iframe {
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ubicación {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mb-3 {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-align-center {
+  font-size: 50px;
+  color: rgb(33, 124, 71);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: lighter;
+  text-decoration: underline;
+}
+
+.row.g-3.align-items-center {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn.btn-success {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 20px;
+  background-color: black;
+}
+
+.footer-sm {
+  background-color: #212121;
+  color: white;
+}
+
+.footer-sm a {
+  color: white;
+}
+
+.footer-sm a i {
+  font-size: 2rem;
+}
+
+.footer-sm__icons {
+  text-align: center;
+  background-color: rgb(148, 212, 148);
+}
+
+.footer-bottom__copyrigt {
+  text-align: center;
+  background-color: rgb(88, 138, 88);
+  font-weight: 500;
+  width: 100%;
+  height: 30px;
+}
+.footer-bottom__copyrigt a {
+  color: rgb(186, 255, 180);
+  text-decoration: none;
+}
+
+.footer-bottom__copyrigt a:hover {
+  color: #72c755;
+  text-decoration: underline;
+}
+
+.card__image {
+  max-width: 300px;
+}
+.card {
+  margin: 2rem;
+  max-width: 360px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.45);
+}
+
+.card-title {
+  font-size: 30px;
+  color: rgb(5, 97, 10);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.card-body a:hover {
+  color: #195a03;
+  text-decoration: underline;
+}
+
+section {
+  text-align: center;
+}
+
+.card.bg-dark.text-white {
+  margin-bottom: 100px;
+}
+
+.preguntasfrecuentes {
+  max-width: 40%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 15px solid;
+}
+
+.nav-item {
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 35px;
+}
+
+.nav-item a:hover {
+  color: #2da007;
+  text-decoration: underline;
+}
+
+#faq {
+  margin-top: 0px;
+  width: 100%;
+  height: 600px;
+}
+
+.productos {
+  font-size: 40px;
+  color: aliceblue;
+  text-transform: uppercase;
+}
+
+.preguntas1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  font-size: 4.5rem;
+  font-weight: 400;
+}
+
+.preguntas2 {
+  font-size: 34px;
+  text-transform: uppercase;
+}
+
+.iconospreguntas {
+  color: #195a03;
+  font-size: 4rem;
+}
+
+.pagos a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.pagos a:hover {
+  color: #72c755;
+  text-decoration: underline;
+}
+
+.talles {
+  margin-top: 0px;
+  width: 100%;
+  font-size: 4.5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.talles1 {
+  font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+th,
+td {
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+tr {
+  text-align: center;
+}
+
+.table {
+  border: solid;
+}
